@@ -1,0 +1,255 @@
+@import url('https://fonts.googleapis.com/css2?family=Marck+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+
+.background {
+  background: url("../assets/images/galaxies.jpg") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.info {
+  margin: 0px 100px;
+  margin-top: 120px;
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  font-family: 'Orbitron', sans-serif;
+  letter-spacing: 2px;
+  text-align: justify;
+  text-justify: inter-word;
+  font-weight: 900;
+  box-sizing: border-box;
+  
+}
+
+.info-text {
+  background-color: #2d377362;
+  border-radius: 25px;
+  margin: 10px;
+  padding-bottom: 10px;
+  box-sizing: border-box;
+}
+
+.info-text > p {
+  padding: 0px;
+  margin: 10px 10px 10px 10px;
+  box-sizing: border-box;
+}
+
+.back {
+  margin-top: 100px;
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  font-family: 'Orbitron', sans-serif;
+  letter-spacing: 2px;
+  text-align: center;
+  text-justify: inter-word;
+}
+
+* {
+  margin: 0;
+  padding-bottom: 25px;
+}
+
+.card-img-top {
+  width: 150px;
+}
+
+.glow {
+  font-size: 60px;
+  color: #fff;
+  text-align: center;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+  }
+  
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+  }
+}
+
+.header {
+  height: 100vh;
+  justify-content: center;
+  display: flex;
+  font-family: sans-serif;
+  align-items: center;
+}  
+
+body {
+  background-color: #2D3773;
+  background-position: center;
+  background-image: url("../assets/images/galaxies.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+h1 {
+  font-size: 25px;
+  margin-bottom: 30px;
+  letter-spacing: 3px;
+  font-family: 'Orbitron', sans-serif;
+}
+
+.blockquote {
+  font-family: 'Marck Script', cursive;
+  color: white;
+  font-size: 25px;
+  text-align: right;
+  letter-spacing: 3px;
+}
+
+.search {
+  height: 50px;
+  padding: 10px;
+  border-radius: 25px;
+}
+
+.search-btn {
+  height: 50px;
+  border-radius: 50%;
+  width: 55px;
+  background-color:#8887A6;
+  border: none;
+}
+
+i {
+  padding-top: 7px;
+}
+
+#ingredientsSearchButton {
+  margin-left: 15px
+}
+
+.search-btn:hover{
+  font-size: 40px;
+  background-image: none;
+  cursor: pointer;
+  color: #fff;
+  text-align: center;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes search-btn {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+  }
+  
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+  }
+}
+
+#results, #drinkListDisplay, #showErrors {
+  color: white;
+  display: none;
+}
+.card {
+  letter-spacing: 2px;
+  font-family: 'Orbitron', sans-serif;
+  align-items: center;
+  float: left;
+  border: 2px solid #2d377385;
+  border-radius: 4px;
+  padding: .5rem;
+  background-color: #2d377362;
+  height: 350px;
+}
+
+.questionCard {
+  font-family: 'Orbitron', sans-serif;
+  align-items: center;
+  border: 2px solid #2d377385;
+  background-color: #2d37737e;
+  margin: 100px;
+}
+
+#questionnaireStyling {
+  color: white;
+  align-items: center;
+}
+
+.questionLabel {
+  font-size: 18pt;
+  letter-spacing: 4pt;
+}
+
+#questionnaireSubmission {
+  border-radius: 35%;
+  background-color:#8887A6;
+  border: none;
+  color: white;
+}
+  
+.btn {
+  color: white;
+  letter-spacing: 2px;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+
+#drinkAndInfo {
+  background-color: #2d377385;
+}
+
+#videoStyle {
+  color: white;
+  text-align: center;
+}
+
+#videoLinks {
+  font-style: italic;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 50%;
+  padding: 30px;
+}
+
+#sliderSize {
+  font-size: 16pt;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  padding: 14px 16px;
+  text-decoration: none;
+  color: #fff;
+  font-family: 'Orbitron', sans-serif;
+  font-weight: 900;
+  text-align: center;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+
+li a:hover {
+  background-color: rgba(0, 0, 255, 0.473);
+}
